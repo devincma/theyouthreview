@@ -1,0 +1,24 @@
+<a class="ui link card" href="/users/<%= contributor.slug %>">
+  <div class="content">
+    <%= avatar_for(contributor, :big_thumb, 'right floated circular tiny') %>
+    <br>
+    <div class="header">
+      <%= full_name_for(contributor) %>&nbsp;
+      <% if controller.action_name == 'contributors' && contributor.is_star_writer %>
+          <div class="ui tiny yellow label">Star Writer</div>
+      <% end %>
+    </div>
+    <div class="meta">
+      <span class="date"><%= contributor.school %></span>
+    </div>
+    <div class="description">
+      <%= truncate(contributor.about_me, length: 90, separator: ' ') %>
+    </div>
+  </div>
+  <% unless contributor.country == '' %>
+      <div class="extra content">
+        <i class="globe icon"></i>
+        <%= contributor.country %>
+      </div>
+  <% end %>
+</a>

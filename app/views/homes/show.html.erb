@@ -1,0 +1,124 @@
+<% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, class: "sl-notification sl-notification-#{name}" %>
+<% end %>
+
+<div id="sl-action-dropdown">
+  <div class="ui container" style="max-width: 1000px !important;">
+    <div class="ui header">Contributing is easy:</div>
+    <div class="ui cards">
+      <div class="card">
+        <div class="content">
+          <div class="header">Already have a blog?</div>
+          <div class="description">
+            Simply submit the URL to your blog and that's it!
+          </div>
+        </div>
+        <a href="/signup?external=true" class="ui bottom attached button">
+          Submit Blog URL
+          <i class="arrow right icon"></i>
+        </a>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="header">No blog?</div>
+          <div class="description">
+            No problem! Sign up for an account.
+          </div>
+        </div>
+        <a href="/signup" class="ui bottom attached button">
+          Sign Up
+          <i class="arrow right icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui container" style="margin-top: 30px; max-width: 1000px !important;">
+
+  <!--Featured Section-->
+  <h3 class="ui grey header">Featured</h3>
+  <% @writings.where(is_featured_today: true).limit(1).each do |writing| %>
+      <a class="ui horizontal segments sl-home-featured-segments" href="<%= writing_path(writing) %>">
+        <div class="ui basic segment sl-home-featured-image" style="background-image: url(<%= extract_image_from(writing.body) %>);"></div>
+        <div class="ui basic segment sl-home-featured-card-segment">
+          <div class="ui fluid card sl-home-featured-card">
+            <div class="content">
+              <div class="header" style="margin-top: 2px;"><%= writing.title %></div>
+              <div class="description sl-writing-card-description">
+                <%= extract_text_from(writing.body, 400) %>
+              </div>
+            </div>
+            <div class="extra content">
+              <div class="left floated">
+                <div class="ui tiny <%= topic_color_for(writing.tag_list[0]) %> tag label"><%= topic_name_for(writing.tag_list[0]) %></div>
+              </div>
+              <div class="right floated">
+                <%= avatar_for(writing.user, :thumb, 'avatar') %> <%= full_name_for(writing.user) %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class="ui raised fluid card sl-home-featured-mobile-card" href="<%= writing_path(writing) %>">
+        <% if image?(writing.body) %>
+            <div class="sl-writings-card-image" style="background-image: url(<%= extract_image_from(writing.body) %>);"></div>
+        <% end %>
+        <div class="content">
+          <div class="header" style="margin-top: 2px;"><%= writing.title %></div>
+          <div class="description <%= description_id(writing.body) %>">
+            <%= extract_text_from(writing.body, 600) %>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="left floated">
+            <div class="ui tiny <%= topic_color_for(writing.tag_list[0]) %> tag label"><%= topic_name_for(writing.tag_list[0]) %></div>
+          </div>
+          <div class="right floated">
+            <%= avatar_for(writing.user, :thumb, 'avatar') %> <%= full_name_for(writing.user) %>
+          </div>
+        </div>
+      </a>
+  <% end %>
+
+  <h3 class="ui grey header">Best of The Youth Review</h3>
+  <div class="ui three stackable cards">
+    <% @writings.where(is_featured: true).limit(3).each do |writing| %>
+        <%= render 'writings/card', writing: writing %>
+    <% end %>
+  </div>
+
+  <h3 class="ui grey header">Top Contributors</h3>
+  <div class="ui three stackable cards">
+    <% @users.each do |contributor| %>
+        <%= render 'contributor_card', contributor: contributor %>
+    <% end %>
+  </div>
+
+  <h3 class="ui grey header">Recent</h3>
+  <div class="ui three stackable cards">
+    <% @writings.limit(6).each do |writing| %>
+        <%= render 'writings/card', writing: writing %>
+    <% end %>
+  </div>
+
+</div>
+
+<!--Featured Student Section-->
+<div class="ui basic clearing segment" style="margin-top: 50px; height: 400px; background-color: white;">
+  <div class="ui grid" style="justify-content: space-between;">
+    <div style="margin-top: 100px; margin-left: 5%; max-width: 500px;">
+      <div class="ui huge header">
+        <div class="content">
+          Featured Student: Shirley Zhu
+          <div class="sub header">
+            Despite her logical, left hemispherical bias for science, she finds plenty of joy in writing. She finds solace in writing poetry and memoirs and she hopes to evoke thought through her short stories...
+          </div>
+        </div>
+      </div>
+      <a class="ui basic button" href="/users/shirley">Learn more about Shirley</a>
+      <!--<span style="color: rgba(0,0,0,.44);" data-tooltip="Every month we select a student who demonstrates thoughtful creativity on Schoolawn and in his/her community" data-position="bottom center">How is this selected?</span>-->
+    </div>
+    <div style="height: 400px; width: 400px; background-image: url(https://d1cndlyhl5fqed.cloudfront.net/assets/szhu.png); background-size: cover; background-repeat: no-repeat;"></div>
+  </div>
+</div>

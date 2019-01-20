@@ -1,0 +1,12 @@
+<div class="ui container" style="margin-top: 30px; max-width: 1000px !important;">
+  <h1 class="ui dividing header" style="line-height: 1.6;">
+    <%= topic_name_for(params[:topic]) %>
+    <div class="sub header" style="line-height: 1.6;">Individual thoughts, creative thinking, and critical reflections at their best</div>
+  </h1>
+
+  <div class="ui three stackable cards">
+    <% @writings.limit(9).each do |writing| %>
+        <%= render 'card', writing: writing %>
+    <% end %>
+  </div>
+</div>

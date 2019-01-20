@@ -1,0 +1,17 @@
+<h2>Confirm your email</h2>
+
+<p>Dear <b><%= @user.first_name %> <%= @user.last_name %></b>,</p>
+<p>Please click the link below to activate your account, so you can start contributing:</p>
+<table class="button">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<h5>We can't wait to read and showcase what you write. Welcome onboard!</h5>

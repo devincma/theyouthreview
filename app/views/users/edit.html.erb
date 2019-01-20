@@ -1,0 +1,83 @@
+<%= form_for(@user, html: {mulipart: true}) do |f| %>
+
+    <div class="ui text container" style="padding-bottom: 100px;">
+      <% if @user.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(@user.errors.count, 'error') %> prohibited this user from being saved:</h2>
+            <ul>
+              <% @user.errors.full_messages.each do |message| %>
+                  <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+      <% end %>
+      <div class="ui grid">
+        <div class="ui four wide column">
+          <br><br>
+          <%= avatar_for(@user, :big_thumb, 'circular') %>
+        </div>
+
+        <div class="ui twelve wide column">
+          <br><br>
+          <h1><%= full_name_for(@user) %></h1>
+          <div class="ui form">
+            <div class="field">
+              <label>Email (new email needs to be re-confirmed)</label>
+              <%= f.text_field :email %>
+            </div>
+            <div class="field">
+              <label>Profile Picture</label>
+              <%= f.file_field :avatar %>
+            </div>
+            <div class="field">
+              <label>Cover Picture (Displayed when others view your profile or you "view as others")</label>
+              <%= f.file_field :cover %>
+            </div>
+            <div class="field">
+              <label>School</label>
+              <%= f.text_field :school %>
+            </div>
+
+            <div class="field">
+              <label>Location</label>
+              <%= f.text_field :country, type: 'search', id: 'address' %>
+            </div>
+
+            <div class="field">
+              <label>Social Media Link</label>
+              <%= f.text_field :link %>
+            </div>
+
+            <div class="field">
+              <label>About Me (this helps people know more about you)</label>
+              <%= f.text_area :about_me %>
+            </div>
+
+            <%= f.submit 'Update profile', class: 'ui primary button' %>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+    (function() {
+        var placesAutocomplete = places({
+            container: document.querySelector('#address')
+        });
+
+        var $address = document.querySelector('#address-value')
+
+        placesAutocomplete.on('change', function(e) {
+            $address.textContent = e.suggestion.value
+        });
+
+        placesAutocomplete.on('clear', function() {
+            $address.textContent = 'none';
+        });
+
+    })();
+</script>
+

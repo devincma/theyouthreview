@@ -1,0 +1,17 @@
+<h3>You're named a Star Writer</h3>
+
+<p>Hey <b><%= @user.first_name %> <%= @user.last_name %></b>,</p>
+<p>You're now a Star Writer on The Youth Review!</p>
+<p>We thank you for your contribution to The Youth Review and we can't wait to see what you write next!</p>
+
+<table class="button">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://theyouthreview.com/users/<%= @user.slug %>">View my updated profile page</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,19 @@
+<a class="ui raised card sl-writing-card" href="<%= writing_path(writing) %>">
+  <% if image?(writing.body) %>
+      <div class="sl-writings-card-image" style="background-image: url(<%= extract_image_from(writing.body) %>);"></div>
+  <% end %>
+  <div class="content">
+    <div class="header" style="margin-top: 2px;"><%= writing.title %></div>
+    <div class="description <%= description_id(writing.body) %>">
+      <%= extract_text_from(writing.body, 600) %>
+    </div>
+  </div>
+  <div class="extra content">
+    <div class="left floated">
+      <div class="ui tiny <%= topic_color_for(writing.tag_list[0]) %> tag label"><%= topic_name_for(writing.tag_list[0]) %></div>
+    </div>
+    <div class="right floated">
+      <%= avatar_for(writing.user, :thumb, 'avatar') %> <%= full_name_for(writing.user) %>
+    </div>
+  </div>
+</a>

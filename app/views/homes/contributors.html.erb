@@ -1,0 +1,12 @@
+<div class="ui container" style="margin-top: 30px; max-width: 1000px !important;">
+  <h1 class="ui dividing header" style="line-height: 1.6;">
+    The Youth Review Contributors
+    <div class="sub header" style="line-height: 1.6;">You should join them!</div>
+  </h1>
+
+  <div class="ui three stackable cards">
+    <% @contributors.each do |contributor| %>
+        <%= render 'contributor_card', contributor: contributor %>
+    <% end %>
+  </div>
+</div>

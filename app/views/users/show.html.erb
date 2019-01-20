@@ -1,0 +1,9 @@
+<% if @user == current_user %>
+    <% if request.query_parameters['view_as_others'] == 'true' %>
+        <%= render 'others' %>
+    <% else %>
+        <%= render 'mine' %>
+    <% end %>
+<% else %>
+    <%= render 'others' %>
+<% end %>

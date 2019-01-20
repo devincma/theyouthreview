@@ -1,0 +1,203 @@
+<% if controller.controller_name == 'homes' %>
+    <div class="ui center aligned basic segment" id="sl-nav-segment">
+      <a href="/">
+        <%= render 'layouts/logo', id: 'sl-logo' %>
+      </a>
+      <br>
+      <span id="sl-intro-line"><i>A publicly contributed online student magazine</i></span>
+    </div>
+    <div class="ui text menu sl-main-nav-homes">
+      <div class="ui container">
+        <!--<a href="/" class="item" id="sl-home-item">Home</a>-->
+        <a href="/about" class="item">About</a>
+        <div class="right menu" id="sl-right-menu">
+          <% if user_signed_in? %>
+              <div class="item" id="sl-new-writing-button">
+                <a class="ui basic button" href="/drafts/new">
+                  <i class="write icon"></i>
+                  <span class="text">New Writing</span>
+                </a>
+              </div>
+              <div class="ui dropdown item">
+                <span class="text"><%= avatar_for(current_user, :thumb, 'avatar') %><span class="sl-mobile-hide"><%= full_name_for(current_user) %></span></span>
+                <i class="dropdown icon" id="sl-dropdown-icon"></i>
+                <div class="menu">
+                  <% if current_user.is_staff %>
+                      <a class="item" href="/admin"><i class="privacy icon"></i>Staff Access</a>
+                  <% end %>
+                  <a class="item" href="/users/<%= current_user.slug %>"><i class="user icon"></i>My Profile</a>
+                  <a class="item" rel="nofollow" data-method="delete" href="/signout"><i class="sign out icon"></i>Sign out</a>
+                  <!-- link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'item'-->
+                </div>
+              </div>
+          <% else %>
+              <!--<a class="item" id="sl-submit-button">Submit</a>-->
+              <a href="/signup" class="item">Submit</a>
+              <a href="/signin" class="item">Sign In</a>
+          <% end %>
+        </div>
+      </div>
+    </div>
+<% end %>
+
+
+<% unless controller.controller_name == 'homes' %>
+    <div class="ui text menu sl-main-nav">
+      <div class="ui container">
+        <a class="header item" href="/">
+          <%= render 'layouts/logo', id: 'sl-logo-small' %>
+        </a>
+        <% if controller.controller_name == 'drafts' %>
+            <div class="item">
+              <h3>Draft</h3>
+            </div>
+        <% else %>
+            <!--<a href="/" class="item">Home</a>-->
+            <a href="/about" class="item">About</a>
+        <% end %>
+
+        <div class="right menu" id="sl-right-menu">
+          <% if controller.controller_name == 'drafts' && controller.action_name == 'new' %>
+              <div class="item">
+                <span id="status-indicator">Enter a title and start writing</span>
+              </div>
+              <div class="item" id="save-button-div">
+                <button class="ui button" id="save-button" style="display: none;">Save</button>
+              </div>
+              <div class="item">
+                <button class="ui primary disabled button" id="publish-button">Publish</button>
+              </div>
+          <% elsif controller.controller_name == 'drafts' && controller.action_name == 'show' %>
+              <div class="item">
+                <span id="status-indicator">Work on what you left off</span>
+              </div>
+              <div class="item" id="save-button-div">
+                <button class="ui button" id="save-button">Save</button>
+              </div>
+              <div class="item">
+                <button class="ui primary button" id="publish-button">Publish</button>
+              </div>
+          <% elsif controller.controller_name == 'writings' && controller.action_name == 'show' %>
+              <% if user_signed_in? && @writing.user == current_user %>
+                  <div class="item">
+                    <a class="ui basic button" id="update-writing-button" href="<%= edit_writing_path %>">
+                      <i class="write icon"></i>
+                      <span class="text sl-mobile-hide">Edit this writing</span>
+                    </a>
+                  </div>
+              <% end %>
+          <% elsif controller.controller_name == 'writings' && controller.action_name == 'edit' %>
+              <div class="item">
+                <button class="ui primary button" id="save-update-button">Update</button>
+              </div>
+          <% end %>
+
+          <% if user_signed_in? %>
+              <% unless controller.controller_name == 'drafts' %>
+                  <div class="item" id="sl-new-writing-button">
+                    <a class="ui basic button" href="/drafts/new">
+                      <i class="write icon"></i>
+                      <span class="text">New Writing</span>
+                    </a>
+                  </div>
+              <% end %>
+              <div class="ui dropdown item">
+                <span class="text"><%= avatar_for(current_user, :thumb, 'avatar') %><span class="sl-mobile-hide"><%= full_name_for(current_user) %></span></span>
+                <i class="dropdown icon" id="sl-dropdown-icon"></i>
+                <div class="menu">
+                  <% if current_user.is_staff %>
+                      <a class="item" href="/admin"><i class="privacy icon"></i>Staff Access</a>
+                  <% end %>
+                  <a class="item" href="/users/<%= current_user.slug %>"><i class="user icon"></i>My Profile</a>
+                  <a class="item" rel="nofollow" data-method="delete" href="/signout"><i class="sign out icon"></i>Sign out</a>
+                  <!-- link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'item'-->
+                </div>
+              </div>
+          <% else %>
+              <a href="/signup" class="item">Submit</a>
+              <a href="/signin" class="item">Sign In</a>
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+<% end %>
+
+<% if controller.controller_name == 'homes' || (controller.controller_name == 'writings' && controller.action_name == 'index') %>
+    <div class="ui text menu sl-topic-nav">
+      <div class="ui container">
+        <span class="item">Explore fiction:</span>
+        <a href="/explore/short-story" class="item">Short Story</a>
+        <a href="/explore/poetry" class="item">Poetry</a>
+        <div class="item"></div>
+
+        <span class="item">Explore non-fiction:</span>
+        <a href="/explore/opinions" class="item">Opinions</a>
+        <a href="/explore/student-life" class="item">Student Life</a>
+        <a href="/explore/technology" class="item">Tech & Innovation</a>
+        <a href="/explore/sports" class="item">Sports</a>
+        <a href="/explore/identity" class="item">Identity</a>
+
+      </div>
+    </div>
+<% end %>
+
+<% if controller.controller_name == 'drafts' %>
+    <div class="ui modal" id="publish-modal">
+      <div class="header">You're about to publish your writing</div>
+      <div class="content">
+        <div>
+          <p>You're about to publish your writing and share it with many like-minded students like you.</p>
+          <p>After it's published, your writing will be publicly accessible on the Internet, but you can still edit or delete your writing.</p>
+          <% unless current_user.is_trusted %>
+              <p><b>Note: </b>We noticed you're new to The Youth Review. Welcome! Your writing will be published once it's approved by our staff, and we'll send you an email when that happens. After that, your writings will be published automatically.</p>
+          <% end %>
+          <br>
+          <b>Choose a topic for your writing: (required)</b>
+        </div>
+        <div class="ui floating dropdown labeled search icon button" id="topic-dropdown">
+          <i class="tag icon"></i>
+          <span class="text">Select topic</span>
+          <div class="menu" style="z-index: -1">
+            <div class="header">Fiction</div>
+            <div class="divider"></div>
+            <div class="item" data-value="short-story">Short Story</div>
+            <div class="item" data-value="poetry">Poetry</div>
+            <div class="header">Non-fiction</div>
+            <div class="divider"></div>
+            <div class="item" data-value="opinions">Opinions</div>
+            <div class="item" data-value="student-life">Student Life</div>
+            <div class="item" data-value="technology">Tech & Innovation</div>
+            <div class="item" data-value="sports">Sports</div>
+            <div class="item" data-value="identity">Identity</div>
+          </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+      </div>
+      <div class="actions">
+        <div class="ui deny button">Back</div>
+        <div class="ui positive right labeled icon button" id="publish-now-button">
+          Publish now
+          <i class="checkmark icon"></i>
+        </div>
+      </div>
+    </div>
+    <div id="web-editor-usage" data-tooltip="Help & Tips" data-position="left center">
+      <i class="big help circle outline icon"></i>
+    </div>
+    <div class="ui modal" id="web-editor-usage-modal">
+      <div class="header">How to use the web editor</div>
+      <div class="content">
+        <b>Start writing:</b>
+        <p>After you've typed in a title, as soon as you start typing in the body section, a new draft will be automatically created for you.
+          Your work will not start being saved if you leave the title blank and write only in the body section.
+        </p>
+        <b>Saving your draft:</b>
+        <p>Your work is automatically saved in the cloud every 30 seconds. You can also manually save anytime using the "Save" button.</p>
+        <b>Your drafts are always private:</b>
+        <p>They will not be displayed on your profile page or accessible to anyone but you.</p>
+        <b>Publishing your work:</b>
+        <p>Use the "Publish" button to make your work public. A topic is required when publishing.</p>
+      </div>
+    </div>
+<% end %>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= display_meta_tags site: 'The Youth Review' %>
+    <% if params[:controller] == 'registrations' || params[:controller] == 'devise/sessions' || params[:controller] == 'devise/passwords' %>
+        <%= stylesheet_link_tag 'application', media: 'all'  %>
+    <% else %>
+        <%= stylesheet_link_tag 'application', params[:controller], media: 'all'  %>
+    <% end %>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/green/pace-theme-minimal.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js'></script>
+    <% if controller.controller_name == 'writings' && controller.action_name == 'show' %>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/froala_style.min.css">
+        <%= javascript_include_tag 'zoom.js' %>
+    <% elsif (controller.controller_name == 'drafts') || (controller.controller_name == 'writings' && controller.action_name == 'edit') %>
+        <script id="fr-fek">try{(function (k){localStorage.FEK=k;t=document.getElementById('fr-fek');t.parentNode.removeChild(t);})('wdywjH-9i1bC-21jB-13lryjB2G-7ol==')}catch(e){}</script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/froala_editor.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/froala_style.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/plugins/image.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/plugins/line_breaker.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/plugins/quick_insert.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/froala_editor.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/align.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/image.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/line_breaker.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/link.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/lists.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/quick_insert.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/quote.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/url.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/plugins/paragraph_format.min.js'></script>
+        <%= javascript_include_tag 'utilities.js' %>
+        <%= javascript_include_tag 'editor.js' %>
+    <% elsif controller.controller_name == 'users' && controller.action_name == 'edit' %>
+        <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.18"></script>
+    <% end %>
+    <% unless params[:controller] == 'registrations' || params[:controller] == 'devise/sessions' || params[:controller] == 'devise/passwords' %>
+        <%= javascript_include_tag 'application', params[:controller] %>
+    <% end %>
+  </head>
+
+  <%= content_tag :body, data: { controller: controller_name, action: action_name }, class: @grey_bg ? 'grey-bg' : '' do %>
+    <%= render 'layouts/nav' %>
+    <%= yield %>
+  <% end %>
+
+</html>

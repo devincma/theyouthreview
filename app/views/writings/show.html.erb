@@ -1,0 +1,44 @@
+<% flash.each do |name, msg| %>
+    <div class='<%="sl-notification sl-notification-#{name}"%>'>
+      <% if name == 'success' %>
+          <i class="check icon"></i>
+      <% end %>
+      <%= msg %>
+    </div>
+<% end %>
+
+<div class="ui text container" style="margin-top: 42px; padding-bottom: 100px;">
+
+  <!--Author Info Section-->
+  <div class="ui grid">
+    <div class="ui three wide column">
+      <%= avatar_for(@writing.user, :big_thumb, 'fluid circular') %>
+    </div>
+    <div class="ui thirteen wide column">
+      <a class="ui small header" href="<%= user_path(@writing.user) %>"><%= full_name_for(@writing.user) %></a>
+      &nbsp<span>Published in <a href="/explore/<%= @writing.tag_list[0] %>" style="color: rgba(0,0,0,.87);"><%= topic_name_for(@writing.tag_list[0]) %></a></span>&nbsp
+      <% if @writing.is_featured || @writing.is_featured_today %>
+          <div class="ui yellow small label">Featured</div>
+      <% end %>
+      <% if @writing.impressionist_count(filter: :session_hash) > 10 %>
+          <div class="ui teal small label"><i class="rocket icon"></i>Trending</div>
+      <% end %>
+      <br>
+      <%= truncate(@writing.user.about_me, length: 300, separator: ' ') %>
+    </div>
+  </div>
+
+  <!--Main Writing Section-->
+  <h1 style="font-size: 35px;">
+    <%= @writing.title %>
+  </h1>
+  <div class="fr-view">
+    <%= @writing.body.html_safe %>
+  </div>
+
+</div>
+
+<script>
+    $('.fr-view img').attr('data-action', 'zoom');
+</script>
+

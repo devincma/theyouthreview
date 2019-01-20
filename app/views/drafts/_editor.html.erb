@@ -1,0 +1,22 @@
+<%= form_for(@draft, remote: true) do |f| %>
+
+    <% if @draft.errors.any? %>
+        <div class="ui error message">
+          <i class="close icon"></i>
+          <div class="header">
+            <%= pluralize(@draft.errors.count, 'error') %> prevented your draft from being submitted:
+          </div>
+
+          <ul class="list">
+            <% @draft.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <%= f.text_field :title, id: 'editor-title', placeholder: 'Title', class: 'ui huge header', autocomplete: 'off', spellcheck: 'false' %>
+
+    <%= f.text_area :body, class: 'fr-view', data: { acl: @hash[:acl], AWSAccessKeyId: @hash[:access_key], policy: @hash[:policy], signature: @hash[:signature] } %>
+
+<% end %>

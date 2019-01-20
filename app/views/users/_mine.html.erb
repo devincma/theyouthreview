@@ -1,0 +1,145 @@
+<div id="sl-profile-row-mine">
+  <div class="ui text container" style="padding-top: 40px;">
+    <div class="ui grid">
+      <div class="ui four wide column">
+        <%= avatar_for(@user, :big_thumb, 'circular') %>
+      </div>
+      <div class="ui twelve wide column">
+        <h1 class="ui header" id="sl-profile-header-mine">
+          <%= full_name_for(@user) %>
+          <% if @user.is_staff %>
+              <div class="ui label">Staff</div>
+          <% end %>
+          <% if @user.is_star_writer %>
+              <div class="ui yellow label">Star Writer</div>
+          <% end %>
+          <% if @user == current_user %>
+              <a class="ui right floated tiny basic button" href="?view_as_others=true" target="_blank"><i class="external icon"></i>View As Others</a>
+              <% if profile_completed?(@user) %>
+                  <a class="ui right floated tiny basic button" href="<%= edit_user_path %>"><i class="edit icon"></i>Edit Profile</a>
+              <% else %>
+                  <a class="ui right floated tiny primary button" href="<%= edit_user_path %>"><i class="edit icon"></i>Complete My Profile</a>
+              <% end %>
+          <% end %>
+          <div class="sub header">
+            <div class="ui horizontal list">
+              <% unless @user.school == '' %>
+                  <div class="item">
+                    <i class="student icon"></i>
+                    <div class="content"><%= @user.school %></div>
+                  </div>
+              <% end %>
+              <% unless @user.country == '' %>
+                  <div class="item">
+                    <i class="world icon"></i>
+                    <div class="content"><%= @user.country %></div>
+                  </div>
+              <% end %>
+              <% unless @user.link == '' %>
+                  <div class="item">
+                    <a class="content" href="<%= user_link_for(@user) %>" rel=”nofollow” target="_blank"><i class="linkify icon"></i></a>
+                  </div>
+              <% end %>
+            </div>
+          </div>
+          <% unless @user.about_me == '' %>
+              <div class="sub header">
+                <%= @user.about_me %>
+              </div>
+          <% end %>
+        </h1>
+      </div>
+    </div>
+
+    <% total_views = 0 %>
+    <% @user.writings.each do |writing| %>
+        <% total_views += writing.impressionist_count %>
+    <% end %>
+
+    <% ppl_reached = 0 %>
+    <% @user.writings.each do |writing| %>
+        <% ppl_reached += writing.impressionist_count(filter: :ip_address) %>
+    <% end %>
+
+    <% if total_views > 10 && ppl_reached > 5 %>
+        <div class="ui three tiny statistics" id="sl-profile-stats-mine">
+          <div class="statistic">
+            <div class="value"><%= @user.writings.count %></div>
+            <div class="label">Writings</div>
+          </div>
+          <div class="statistic">
+            <div class="value"><%= total_views %></div>
+            <div class="label">Total Views</div>
+          </div>
+          <div class="statistic">
+            <div class="value"><%= ppl_reached %></div>
+            <div class="label">People Reached</div>
+          </div>
+        </div>
+    <% end %>
+
+  </div>
+</div>
+
+
+<div class="ui text container" style="padding-top: 20px; padding-bottom: 100px;">
+  <!--<div class="row" >-->
+  <!--</div>-->
+  <% if user_signed_in? && @user == current_user && current_user.drafts.all.exists? %>
+      <h3 class="ui grey header" style="margin-top: 40px">My Drafts (Private)</h3>
+      <div class="ui divided items">
+
+        <% current_user.drafts.all.order(created_at: :desc).each do |draft| %>
+            <div class="item">
+              <div class="middle aligned content">
+                <a class="header" href="<%= draft_path(draft.token) %>">
+                  <%= draft.title %>
+                </a>
+                <div class="meta">
+                  <span>Last edited <%= distance_of_time_in_words(Time.now, draft.updated_at) %> ago</span>
+                  <%= link_to 'Delete', draft_path(draft.token), method: :delete, data: { confirm: 'Are you sure to delete this draft? This can\'t be undone.' }, class:'compact ui right floated basic mini button' %>
+                </div>
+              </div>
+            </div>
+
+        <% end %>
+      </div>
+  <% end %>
+
+
+  <% if @user.writings.exists? %>
+      <h3 class="ui grey header" style="margin-top: 40px;">My Published Writings</h3>
+      <div class="ui divided items">
+
+        <% @user.writings.order(created_at: :desc).each do |writing| %>
+            <div class="item">
+              <div class="middle aligned content">
+                <a class="header" href="<%= writing_path(writing.slug) %>">
+                  <%= writing.title %>
+                </a>
+                <div class="meta">
+                  <% if writing.updated_at == writing.created_at %>
+                      <span>Published <%= distance_of_time_in_words(Time.now, writing.created_at) %> ago</span>
+                  <% else %>
+                      <span>Last edited <%= distance_of_time_in_words(Time.now, writing.updated_at) %> ago</span>
+                  <% end %>
+
+                  <% if user_signed_in? && @user == current_user && writing.impressionist_count(filter: :session_hash) > 10 %>
+                      <span><i class="rocket icon"></i> Trending with <%= writing.impressionist_count(filter: :session_hash) %> reads</span>
+                  <% end %>
+                  <% if user_signed_in? && @user == current_user %>
+                      <%= link_to 'Delete', writing_path(writing.slug), method: :delete, data: { confirm: 'Are you sure to delete this published writing? This can\'t be undone.' }, class:'ui right floated basic compact mini button' %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+        <% end %>
+      </div>
+  <% else %>
+      <h3 class="ui center aligned icon grey header" style="margin-top: 100px">
+        <i class="folder open outline icon"></i>
+        Start to share your awesome ideas with the world now ;)
+      </h3>
+  <% end %>
+</div>

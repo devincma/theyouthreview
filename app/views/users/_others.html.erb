@@ -1,0 +1,56 @@
+<div class="sl-user-cover-image" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<%= @user.cover.url %>);">
+  <div class="ui text container">
+    <br><br>
+    <%= avatar_for(@user, :big_thumb, 'centered small circular') %>
+    <h1 class="ui center aligned header" style="color: #ffffff">
+      <%= full_name_for(@user) %>
+      <% if @user.is_staff %>
+          <div class="ui label">Staff</div>
+      <% end %>
+      <% if @user.is_star_writer %>
+          <div class="ui yellow label">Star Writer</div>
+      <% end %>
+      <div class="sub header" style="color: #ffffff">
+        <div class="ui horizontal list">
+          <% unless @user.school == '' %>
+              <div class="item">
+                <i class="student icon"></i>
+                <div class="content"><%= @user.school %></div>
+              </div>
+          <% end %>
+          <% unless @user.country == '' %>
+              <div class="item">
+                <i class="world icon"></i>
+                <div class="content"><%= @user.country %></div>
+              </div>
+          <% end %>
+          <% unless @user.link == '' %>
+              <div class="item">
+                <a class="content" href="<%= user_link_for(@user) %>" rel=”nofollow” target="_blank"><i class="linkify icon"></i></a>
+              </div>
+          <% end %>
+        </div>
+      </div>
+      <% unless @user.about_me == '' %>
+          <div class="ui basic segment" style="color: #ffffff;">
+            <p style="font-weight: 400;"><%= @user.about_me %></p>
+          </div>
+      <% end %>
+    </h1>
+  </div>
+</div>
+
+<div class="ui container" style="max-width: 1000px !important;" id="sl-profile-container">
+  <% if @user.writings.exists? %>
+      <div class="ui three stackable cards">
+        <% @user.writings.order(created_at: :desc).each do |writing| %>
+            <%= render 'writings/card', writing: writing %>
+        <% end %>
+      </div>
+  <% else %>
+      <h3 class="ui center aligned icon grey header" style="margin-top: 100px">
+        <i class="folder open outline icon"></i>
+        <%= @user.first_name %> may be new to The Youth Review ;)
+      </h3>
+  <% end %>
+</div>

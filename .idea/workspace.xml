@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c022dda-bb59-47c6-9d48-5f904f31127b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/theyouthreview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/theyouthreview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/08427891-a9b0-4c24-83ed-86beb6d22d04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/175342f6-91a8-490b-8444-de4e7f8c880c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/2fb12e89-cc71-4f85-b1dd-75b142b0101c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/48e477b8-03c9-4aaf-a56f-4129ffbbbe6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/5392d079-4bdf-450a-a9de-09980fed13fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/593df9b2-e069-4660-a188-916599a031c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/770f1ebe-001c-439e-af8a-2f856fad6aa4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/7ee7eef0-5e97-4cc3-af68-6fa30f28a495.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/8d1569cc-9f65-48f1-a08a-514174e0ab4b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/data/meta_request/9aee5d4e-1468-4d64-9075-209d9d203623.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/sitemaps/sitemap.xml.gz" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/writing.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>premailer</find>
+      <find>2.6.4</find>
+      <find>right</find>
+      <find>topics</find>
+      <find>option</find>
+      <find>value=&quot;</find>
+      <find>data-value=&quot;</find>
+      <find>topic</find>
+      <find>explore-nonfiction</find>
+      <find>about</find>
+      <find>About</find>
+      <find>editors</find>
+      <find>truncate</find>
+      <find>daily</find>
+      <find>asset</find>
+      <find>Contributors</find>
+      <find>h2</find>
+      <find>editor</find>
+      <find>&lt;a href=&quot;/signup&quot; class=&quot;item&quot;&gt;</find>
+      <find>Contribute</find>
+      <find>New Writing</find>
+      <find>/signup</find>
+      <find>new writing</find>
+      <find>devise/registrations</find>
+      <find>contribu</find>
+      <find>submit</find>
+      <find>fantasy</find>
+      <find>saveDraft</find>
+      <find>notice</find>
+      <find>save</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$('#status-indicator')</replace>
+      <replace>The Youth Review</replace>
+      <replace>2.6.3</replace>
+      <replace>status_indicator_span</replace>
+      <replace>statusIndicatorDiv</replace>
+      <replace>status_indicator_div</replace>
+      <replace>statusIndicatorSpan</replace>
+      <replace>2.6.4</replace>
+      <replace>theyouthreview</replace>
+      <replace>dgx0wu1owm34a.cloudfront.net</replace>
+      <replace>frView</replace>
+      <replace>/</replace>
+      <replace>'</replace>
+      <replace>2.2.10</replace>
+      <replace>2.2.9</replace>
+      <replace>2.2.13</replace>
+      <replace>sl-main-nav-homes</replace>
+      <replace>2.6.5</replace>
+      <replace>explore-nonfiction</replace>
+      <replace>div</replace>
+      <replace>data-value=&quot;</replace>
+      <replace>class=&quot;item&quot; data-value=&quot;</replace>
+      <replace>explore</replace>
+      <replace>Contributors</replace>
+      <replace>contributors</replace>
+      <replace>weekly</replace>
+      <replace>h3</replace>
+      <replace>contributor</replace>
+      <replace>/submit</replace>
+      <replace>registrations</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app/controllers/writings_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
+        <option value="$PROJECT_DIR$/public/sitemap.xml" />
+        <option value="$PROJECT_DIR$/public/500.html" />
+        <option value="$PROJECT_DIR$/public/422.html" />
+        <option value="$PROJECT_DIR$/public/404.html" />
+        <option value="$PROJECT_DIR$/app/helpers/homes_helper.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/homes.css.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/writings_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/writings/index2.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/_mine.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/writings/_card.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_others.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/writings_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/writings_mailer/writing_featured.text.erb" />
+        <option value="$PROJECT_DIR$/app/views/writings_mailer/writing_featured_for_banner.text.erb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/granted_staff_access.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/named_star_writer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/writings_mailer/writing_featured.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/writings_mailer/writing_featured_for_banner.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css" />
+        <option value="$PROJECT_DIR$/app/assets/images/logo.svg" />
+        <option value="$PROJECT_DIR$/app/views/homes/contributors.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/homes/_contributor_card.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_logo.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/homes.js" />
+        <option value="$PROJECT_DIR$/app/controllers/homes_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/writing.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/writings/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/homes/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/homes.css" />
+        <option value="$PROJECT_DIR$/app/views/homes/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_notices.html.erb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="theyouthreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theyouthreview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theyouthreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theyouthreview" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theyouthreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theyouthreview" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theyouthreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theyouthreview" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theyouthreview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theyouthreview" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="contributo&#9;FILE&#9;file:///Users/devinma/Desktop/theyouthreview/app/views/homes/contributors.html.erb&#10;devise&#9;FILE&#9;file:///Users/devinma/Desktop/theyouthreview/config/locales/devise.en.yml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/views/writings" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: theyouthreview">
+    <configuration name="Development: theyouthreview" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="theyouthreview" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: theyouthreview" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="theyouthreview" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: theyouthreview" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="theyouthreview" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: theyouthreview" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="theyouthreview" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rails.Development: theyouthreview" />
+      <item itemvalue="Rails.Production: theyouthreview" />
+      <item itemvalue="Rake.spec: theyouthreview" />
+      <item itemvalue="Rake.test: theyouthreview" />
+    </list>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c022dda-bb59-47c6-9d48-5f904f31127b" name="Default" comment="" />
+      <created>1500259562958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500259562958</updated>
+      <workItem from="1500259565052" duration="776000" />
+      <workItem from="1500260443767" duration="96000" />
+      <workItem from="1500260793375" duration="526000" />
+      <workItem from="1500261326411" duration="820000" />
+      <workItem from="1500272452794" duration="258000" />
+      <workItem from="1500272832789" duration="1331000" />
+      <workItem from="1500276487707" duration="573000" />
+      <workItem from="1500300108205" duration="732000" />
+      <workItem from="1500301101149" duration="6000" />
+      <workItem from="1500347406463" duration="5599000" />
+      <workItem from="1500368057662" duration="2579000" />
+      <workItem from="1500378031260" duration="267000" />
+      <workItem from="1500378649084" duration="116000" />
+      <workItem from="1500378789824" duration="485000" />
+      <workItem from="1500379306356" duration="247000" />
+      <workItem from="1500379564997" duration="369000" />
+      <workItem from="1500382457258" duration="216000" />
+      <workItem from="1500386694735" duration="71000" />
+      <workItem from="1500432807221" duration="3683000" />
+      <workItem from="1500451198752" duration="4359000" />
+      <workItem from="1500471030495" duration="102000" />
+      <workItem from="1500471277504" duration="806000" />
+      <workItem from="1500473678335" duration="60000" />
+      <workItem from="1500474977909" duration="1003000" />
+      <workItem from="1500526035919" duration="1279000" />
+      <workItem from="1500540092675" duration="12000" />
+      <workItem from="1500540107409" duration="1214000" />
+      <workItem from="1500541735627" duration="844000" />
+      <workItem from="1500604080389" duration="6961000" />
+      <workItem from="1500618939582" duration="240000" />
+      <workItem from="1500644679770" duration="928000" />
+      <workItem from="1500707261456" duration="474000" />
+      <workItem from="1500792682436" duration="5907000" />
+      <workItem from="1500815223053" duration="974000" />
+      <workItem from="1500821122291" duration="1613000" />
+      <workItem from="1500860581554" duration="981000" />
+      <workItem from="1500883991549" duration="754000" />
+      <workItem from="1500898572106" duration="1893000" />
+      <workItem from="1501017694386" duration="23000" />
+      <workItem from="1501032336085" duration="1133000" />
+      <workItem from="1501125474930" duration="4250000" />
+      <workItem from="1501181286847" duration="2395000" />
+      <workItem from="1501205352564" duration="314000" />
+      <workItem from="1501206027571" duration="136000" />
+      <workItem from="1501206435812" duration="1647000" />
+      <workItem from="1501254743249" duration="1159000" />
+      <workItem from="1501258745463" duration="62000" />
+      <workItem from="1501260260432" duration="3055000" />
+      <workItem from="1501265663180" duration="187000" />
+      <workItem from="1501273381541" duration="1149000" />
+      <workItem from="1501296493968" duration="1598000" />
+      <workItem from="1501299972880" duration="263000" />
+      <workItem from="1501300291084" duration="18000" />
+      <workItem from="1501300366724" duration="595000" />
+      <workItem from="1501340252827" duration="851000" />
+      <workItem from="1501343120551" duration="306000" />
+      <workItem from="1501353061466" duration="146000" />
+      <workItem from="1501353880932" duration="417000" />
+      <workItem from="1501354856737" duration="268000" />
+      <workItem from="1501355126974" duration="9311000" />
+      <workItem from="1501388039631" duration="1384000" />
+      <workItem from="1501389563528" duration="226000" />
+      <workItem from="1501470011060" duration="354000" />
+      <workItem from="1501515641891" duration="34000" />
+      <workItem from="1501534792686" duration="111000" />
+      <workItem from="1501535224517" duration="238000" />
+      <workItem from="1501545203492" duration="33000" />
+      <workItem from="1501547469879" duration="195000" />
+      <workItem from="1501547713740" duration="1430000" />
+      <workItem from="1501604226909" duration="10000" />
+      <workItem from="1501620505824" duration="675000" />
+      <workItem from="1501621224270" duration="70000" />
+      <workItem from="1501641464568" duration="2719000" />
+      <workItem from="1501698148655" duration="920000" />
+      <workItem from="1501699917941" duration="49000" />
+      <workItem from="1501700877173" duration="1072000" />
+      <workItem from="1501709651603" duration="221000" />
+      <workItem from="1501715996380" duration="149000" />
+      <workItem from="1501727429798" duration="2068000" />
+      <workItem from="1501796728402" duration="1927000" />
+      <workItem from="1501808539403" duration="139000" />
+      <workItem from="1501884284198" duration="2376000" />
+      <workItem from="1501901626344" duration="1329000" />
+      <workItem from="1501952203280" duration="813000" />
+      <workItem from="1501969107650" duration="196000" />
+      <workItem from="1501992686358" duration="38000" />
+      <workItem from="1502132953044" duration="110000" />
+      <workItem from="1502228606584" duration="3919000" />
+      <workItem from="1502252272783" duration="714000" />
+      <workItem from="1502381483856" duration="616000" />
+      <workItem from="1502382394722" duration="139000" />
+      <workItem from="1502397553479" duration="351000" />
+      <workItem from="1502501765324" duration="2329000" />
+      <workItem from="1502599012897" duration="742000" />
+      <workItem from="1502639148862" duration="1796000" />
+      <workItem from="1502747903976" duration="143000" />
+      <workItem from="1502748161462" duration="254000" />
+      <workItem from="1502844354387" duration="5918000" />
+      <workItem from="1502857757552" duration="2784000" />
+      <workItem from="1502900386663" duration="4557000" />
+      <workItem from="1502911984783" duration="420000" />
+      <workItem from="1502914609625" duration="1989000" />
+      <workItem from="1502917240179" duration="260000" />
+      <workItem from="1502917691592" duration="251000" />
+      <workItem from="1502995771976" duration="3684000" />
+      <workItem from="1503100319150" duration="8000" />
+      <workItem from="1503175402275" duration="7624000" />
+      <workItem from="1503187018456" duration="1875000" />
+      <workItem from="1503192306477" duration="1058000" />
+      <workItem from="1503251793553" duration="1248000" />
+      <workItem from="1503339050618" duration="126000" />
+      <workItem from="1503368730301" duration="844000" />
+      <workItem from="1503369584075" duration="12000" />
+      <workItem from="1503369977196" duration="1364000" />
+      <workItem from="1503371745380" duration="1803000" />
+      <workItem from="1503447181442" duration="4733000" />
+      <workItem from="1503456511636" duration="1536000" />
+      <workItem from="1503536980920" duration="353000" />
+      <workItem from="1503620086573" duration="3712000" />
+      <workItem from="1503637303302" duration="143000" />
+      <workItem from="1503791662459" duration="46000" />
+      <workItem from="1503872269859" duration="787000" />
+      <workItem from="1503884911119" duration="60000" />
+      <workItem from="1503886215342" duration="758000" />
+      <workItem from="1503887075890" duration="1853000" />
+      <workItem from="1503974293447" duration="894000" />
+      <workItem from="1504477232902" duration="2329000" />
+      <workItem from="1504488917689" duration="2238000" />
+      <workItem from="1514507425703" duration="378000" />
+      <workItem from="1514511989535" duration="144000" />
+      <workItem from="1514514889520" duration="2045000" />
+      <workItem from="1514517363245" duration="418000" />
+      <workItem from="1514519854552" duration="127000" />
+      <workItem from="1514911374285" duration="159000" />
+      <workItem from="1514918980862" duration="253000" />
+      <workItem from="1515045308707" duration="547000" />
+      <workItem from="1515895205216" duration="178000" />
+      <workItem from="1516250505062" duration="197000" />
+      <workItem from="1516250736931" duration="148000" />
+      <workItem from="1519587181160" duration="131000" />
+      <workItem from="1524204969341" duration="754000" />
+      <workItem from="1527975987276" duration="378000" />
+      <workItem from="1527976565006" duration="618000" />
+      <workItem from="1538255878007" duration="180000" />
+      <workItem from="1539916489872" duration="103000" />
+      <workItem from="1539917985694" duration="1665000" />
+      <workItem from="1539921473466" duration="19000" />
+      <workItem from="1539921672601" duration="11000" />
+      <workItem from="1540000866920" duration="71000" />
+      <workItem from="1540001131312" duration="19000" />
+      <workItem from="1540001685046" duration="19000" />
+      <workItem from="1540001806932" duration="95000" />
+      <workItem from="1540001914958" duration="2000" />
+      <workItem from="1540002371182" duration="13000" />
+      <workItem from="1540002389869" duration="356000" />
+      <workItem from="1540005102810" duration="408000" />
+      <workItem from="1540052976891" duration="80000" />
+      <workItem from="1540054480724" duration="60000" />
+      <workItem from="1540054631302" duration="7000" />
+      <workItem from="1540054650337" duration="70000" />
+      <workItem from="1540055238550" duration="2170000" />
+      <workItem from="1540057673749" duration="275000" />
+      <workItem from="1540060820793" duration="90000" />
+      <workItem from="1540659650689" duration="11000" />
+      <workItem from="1540659677549" duration="132000" />
+      <workItem from="1540660267727" duration="24000" />
+      <workItem from="1540660331377" duration="14000" />
+      <workItem from="1543634709517" duration="108000" />
+      <workItem from="1543635068164" duration="176000" />
+      <workItem from="1543637552379" duration="64000" />
+      <workItem from="1543676469786" duration="127000" />
+      <workItem from="1543676840489" duration="62000" />
+      <workItem from="1543678213543" duration="489000" />
+      <workItem from="1543694572979" duration="939000" />
+      <workItem from="1543721132755" duration="1222000" />
+      <workItem from="1544386706596" duration="166000" />
+      <workItem from="1544386954551" duration="1128000" />
+      <workItem from="1545337425238" duration="112000" />
+    </task>
+    <task id="LOCAL-00044" summary="Minor fixes">
+      <created>1502382093154</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1502382093154</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add sitemap gem">
+      <created>1502505709986</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1502505709986</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fix sitemap gem">
+      <created>1502506855166</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1502506855166</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Delete staff section">
+      <created>1502599900534</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1502599900534</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Minor fixes">
+      <created>1502639535658</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1502639535659</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Minor fixes">
+      <created>1502640827490</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1502640827490</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Minor fixes">
+      <created>1502748320126</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1502748320126</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Add more email">
+      <created>1502859338727</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1502859338729</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Minor fixes">
+      <created>1502860363062</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1502860363062</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add foundation email css">
+      <created>1502904386393</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1502904386393</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Minor fixes">
+      <created>1502912102341</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1502912102341</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Minor fixes">
+      <created>1502914616195</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1502914616195</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Minor fixes">
+      <created>1502914897758</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1502914897758</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Minor fixes">
+      <created>1502915772434</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1502915772434</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Minor fix">
+      <created>1502915861883</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1502915861883</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Minor fix">
+      <created>1502917758015</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1502917758016</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Froala 2.5.5; Dokku post-deploy tasks">
+      <created>1502996637017</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1502996637019</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Minor fixes">
+      <created>1502999182564</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1502999182564</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Minor fixes">
+      <created>1502999551858</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1502999551858</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Add fiction; add editors page">
+      <created>1503183412701</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1503183412702</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Minor fixes">
+      <created>1503183536392</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1503183536393</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Minor fixes">
+      <created>1503189290952</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1503189290952</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Minor fixes">
+      <created>1503193389507</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1503193389507</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Minor fixes">
+      <created>1503252318717</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1503252318717</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Major style change to homes, static pages, and added sitemap">
+      <created>1503453444161</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1503453444162</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Minor fixes">
+      <created>1503457811822</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1503457811822</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Minor fixes">
+      <created>1503537068801</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1503537068802</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Minor fixes">
+      <created>1503537199879</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1503537199879</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Add WritingsMailer">
+      <created>1503624536623</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1503624536624</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Minor fixes">
+      <created>1503637334759</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1503637334759</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Minor fixes">
+      <created>1503872816464</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1503872816464</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Minor fixes">
+      <created>1503888130970</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1503888130971</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Minor fixes">
+      <created>1503888763965</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1503888763965</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Minor fixes">
+      <created>1514512006219</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1514512006220</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Minor fixes">
+      <created>1514512153500</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1514512153500</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Minor fixes">
+      <created>1514515244544</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1514515244545</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Minor fixes">
+      <created>1514516233784</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1514516233784</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Minor fixes">
+      <created>1514516613906</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1514516613906</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Minor fixes">
+      <created>1514517029374</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1514517029374</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Minor fixes">
+      <created>1514517730961</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1514517730961</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Minor fixes">
+      <created>1514519929791</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1514519929792</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Minor fixes">
+      <created>1514911442648</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1514911442648</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Minor fixes">
+      <created>1514919151955</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1514919151955</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Minor fixes">
+      <created>1515045408575</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1515045408576</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Minor fixes">
+      <created>1515045697171</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1515045697171</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Minor fixes">
+      <created>1515895238813</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1515895238814</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Minor fixes">
+      <created>1516250623484</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1516250623484</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Minor fixes">
+      <created>1516250807610</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1516250807610</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Minor fixes">
+      <created>1519587225449</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1519587225449</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="180555000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="801" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24979983" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32833788" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49721116" weight="0.32971507" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50278884" side_tool="true" weight="0.6065129" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32833788" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22417934" />
+      <window_info id="Structure" order="1" weight="0.24979983" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32971507" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971507" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38127545" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Emails name" />
+    <MESSAGE value="Add Google Analytics" />
+    <MESSAGE value="Update Google Analytics" />
+    <MESSAGE value="Update meta tags" />
+    <MESSAGE value="Fix sanitizer" />
+    <MESSAGE value="Fix sanitizer 3" />
+    <MESSAGE value="Fix home/about pages links" />
+    <MESSAGE value="Fix home/writings pages css" />
+    <MESSAGE value="Redesign user profile page" />
+    <MESSAGE value="Cover" />
+    <MESSAGE value="Minor Fixes" />
+    <MESSAGE value="More about info" />
+    <MESSAGE value="Fix about" />
+    <MESSAGE value="New nav bar design" />
+    <MESSAGE value="Add sitemap gem" />
+    <MESSAGE value="Fix sitemap gem" />
+    <MESSAGE value="Delete staff section" />
+    <MESSAGE value="Add more email" />
+    <MESSAGE value="Add foundation email css" />
+    <MESSAGE value="Minor fix" />
+    <MESSAGE value="Froala 2.5.5; Dokku post-deploy tasks" />
+    <MESSAGE value="Add fiction; add editors page" />
+    <MESSAGE value="Major style change to homes, static pages, and added sitemap" />
+    <MESSAGE value="Add WritingsMailer" />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/drafts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/homes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/submit.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/drafts/_submitbutton.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/drafts/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/drafts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/writings/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/contributors.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/about.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/drafts/_editor.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/writings.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170409023359_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170425232447_add_slug_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dashboards/user_dashboard.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1022">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="152" column="39" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.5/gems/devise-4.4.1/app/helpers/devise_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_notices.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/devise_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.5/gems/devise-4.4.1/app/controllers/devise_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="93" column="29" lean-forward="true" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.5/gems/devise-4.4.1/app/controllers/devise/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1303">
+          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs20/object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="636" column="8" selection-start-line="636" selection-start-column="8" selection-end-line="636" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/utilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/drafts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="76" column="72" selection-start-line="76" selection-start-column="72" selection-end-line="76" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/drafts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.5/gems/acts-as-taggable-on-5.0.0/lib/acts_as_taggable_on/taggable/tagged_with_query/query_base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/writings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/writing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+
+  <!--Topics-->
+  <% ['Student Life','Opinions','Technology & Innovation','Environment','Activism', 'Art'].each do |topic| %>
+      <h3 class="ui grey header"><%= topic %></h3>
+      <div class="ui three stackable cards">
+        <% @writings.tagged_with(topic).limit(3).each do |writing| %>
+            <%= render 'card', writing: writing %>
+        <% end %>
+      </div>
+      <br>
+  <% end %>
+
+
+
+<div class="ui container" style="margin-top: 50px; padding-bottom: 100px;">
+  <h3 class="ui grey header">Also in <% @writing.tag_list[0].capitalize %></h3>
+  <div class="ui four stackable cards" style="margin-top: 0;">
+    <% Writing.order(created_at: :desc).offset(4).tagged_with(@writing.tag_list[0]).limit(4).each do |writing| %>
+        <%= render 'card', writing: writing %>
+    <% end %>
+  </div>
+</div>
+
+
+  <br><br><br>
+  <div class="ui grid">
+    <% @writings.where(is_featured_today: true).limit(1).each do |writing| %>
+        <a class="eleven wide column" id="sl-main-feed" href="<%= writing_path(writing) %>">
+          <%= image_tag extract_image_from(writing.body), class: 'ui image', id: 'featured-image' %>
+          <div id="overlay-text">
+            <h1><%= writing.title %></h1>
+            <h3 class="ui header">
+              <%= avatar_for(writing.user, :thumb, 'avatar') %>
+              <div class="content" style="color: white;">
+                <%= full_name_for(writing.user) %>
+                <div class="sub header" style="color: white;"><%= writing.created_at.strftime('%B %d') %></div>
+              </div>
+            </h3>
+          </div>
+        </a>
+    <% end %>
+  </div>

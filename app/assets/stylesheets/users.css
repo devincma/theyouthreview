@@ -1,0 +1,33 @@
+#sl-profile-row-mine {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: -13px;
+}
+
+#sl-profile-header-mine {
+    margin-top: 20px;
+}
+
+#sl-profile-stats-mine {
+    margin-top: 50px;
+}
+
+#sl-profile-container {
+    margin-top: -80px;
+    padding-bottom: 100px;
+}
+
+.sl-user-cover-image {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 500px !important;
+    margin-top: 0 !important;
+}
+
+@media only screen and (max-width: 655px) {
+    #sl-profile-container {
+        margin-top: 0;
+        padding-bottom: 100px;
+    }
+}

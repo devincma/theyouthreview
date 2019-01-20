@@ -1,0 +1,47 @@
+<div class="ui middle aligned center aligned grid">
+  <div class="column" style="max-width: 450px; margin-top: 50px">
+    <h1>Sign up to get started</h1>
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
+        <div class="ui large form">
+          <div class="ui stacked segment">
+            <div class="ui form">
+              <% if request.query_parameters['external'] %>
+                  <h4 class="ui dividing header">Your Blog URL</h4>
+                  <div class="field">
+                    <%= f.text_field :link, autofocus: true, placeholder: 'Your blog URL' %>
+                  </div>
+                  <h4 class="ui dividing header">Signing up for an account</h4>
+              <% end %>
+              <div class="field">
+                <%= f.email_field :email, autofocus: true, placeholder: 'Email (we\'ll send you a confirmation email)' %>
+              </div>
+              <div class="two fields">
+                <div class="field">
+                  <%= f.text_field :first_name, autofocus: true, placeholder: 'First Name' %>
+                </div>
+                <div class="field">
+                  <%= f.text_field :last_name, autofocus: true, placeholder: 'Last Name' %>
+                </div>
+              </div>
+              <br>
+              <div class="field">
+                <%= f.password_field :password, autocomplete: 'off', placeholder: 'Password (6 characters minimum)' %>
+              </div>
+              <div class="field">
+                <%= f.password_field :password_confirmation, autocomplete: 'off', placeholder: 'Confirm Password (6 characters minimum)' %>
+              </div>
+              <!--<div style="color: grey">-->
+                <!--By signing up, you agree to our User Agreement and acknowledge that you're under 20 years of age.-->
+              <!--</div>-->
+              <br>
+              <div class="actions">
+                <%= f.submit 'Sign up', class: 'ui fluid large primary button' %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <%= render 'devise/shared/links' %>
+    <% end %>
+  </div>
+</div>
