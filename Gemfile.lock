@@ -166,7 +166,7 @@ GEM
       actionmailer (>= 3, < 6)
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (3.0.2)
-    puma (3.11.2)
+    puma (3.12.2)
     rack (2.0.4)
     rack-contrib (2.0.1)
       rack (~> 2.0)
@@ -276,7 +276,7 @@ DEPENDENCIES
   nokogiri (~> 1.8, >= 1.8.2)
   pg (~> 0.20.0)
   premailer-rails (~> 1.9, >= 1.9.7)
-  puma (~> 3.9, >= 3.9.1)
+  puma (~> 3.12)
   rails (~> 5.0.4)
   sass-rails
   sidekiq (~> 5.0, >= 5.0.4)
