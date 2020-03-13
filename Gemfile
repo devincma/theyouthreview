@@ -48,7 +48,7 @@ gem 'premailer-rails', '~> 1.9', '>= 1.9.7'
 # gem 'httparty', '~> 0.15.6'
 
 # Admin dashboard
-gem 'administrate', '~> 0.9.0'
+gem 'administrate', '~> 0.13.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
