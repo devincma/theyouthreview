@@ -36,7 +36,7 @@ gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 gem 'carrierwave-aws', '~> 1.3'
 gem 'mini_magick', '~> 4.8'
 
-gem 'nokogiri', '~> 1.8', '>= 1.8.2'
+gem 'nokogiri', '~> 1.10'
 gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'acts-as-taggable-on', '~> 5.0'
 gem 'impressionist', '~> 1.6'
